@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vcard</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Noto+Sans+SC|Oswald|Pacifico|Ropa+Sans&display=swap" rel="stylesheet">
+    <script src='js/a076d05399.js'></script>
+    <script type="text/javascript" src="js/home1.js"></script>
+     <style>
+#image{
+margin-right: 20px
+
+
+
+}
+#f1{
+  padding: 20px;
+  font-family: 'Odibee Sans', cursive;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  
+  float: left;
+  width: 25%;
+  margin-bottom: 5px;
+  padding: 0 8px;
+}
+
+.card {
+  width: fit-content;
+  background-color: aliceblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.containera {
+  padding: 0 16px;
+}
+
+.containera::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  margin-right:10px;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width:90%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+       </style>
+  </head>
+  <body>
+
+    <div id="mySidenav" class="sidenav " style="font-style:Candara ;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+     <nav id="nav">
+      <a href="index.html">&#x025B6; Home</a>
+      <a href="cprofile.html"><i class='fas fa-address-book' style='font-size:24px'></i> Company Profile</a>
+      <a href="about.html">&#9742 Contact us</a>
+      </nav>
+    </div>
+
+    <div id="main">
+      <header>
+      <div class="header">
+      <span id="cli" style="font-size:30px;cursor:pointer;color: azure;" onclick="openNav()"> &#9776;</span>
+      <span class="logo" style="font-family: 'Oswald', sans-serif;font-weight: bold;font-size: 25px;color: azure;margin-left: 40px;">Vcard</span>
+
+      <div class="header-right">
+        <a class="active" href="#signup">SignUp</a>
+        <a href="#signin">SignIn</a>
+       
+
+      </div> 
+    </div>
+     </header>
+
+
+    <section id="content1">
+     <p> <H1 style="font-family: Arial, Helvetica, sans-serif;font-size: 40px;color: aliceblue; margin: 30px;">About VCard </H1>
+      <img  id="image" src="content.png" alt="Logo" width="300" height="300" style="float: right;"> 
+    <p id="f1">  What do you want to learn?
+Online flashcards are a great way to study! Vcard is your number one online educational resource. 
+We have a wide selection of flashcards for you to study, memorize, test yourself on, and more.
+ Learn a foreign language, practice your multiplication table or prepare for your MCAT by memorizing every bone in the body.
+ Whatever it is you want to learn, Vcard has you covered. Flashcards are effective because they are founded on the principles of rote 
+ and memorization. With Vcard.com, you can use our web-based flashcard maker to create your own set. Once you create your online
+  flashcards, you will be able to study, export or even share it with your fellow classmates. You can collaborate perfectly with anyone,
+   anytime. Get Vcardming today!Vcard also has a large app store so you can find other mobile flashcards for your Android, 
+   iPhone or Windows device, allowing you to take your flashcards on the go! Study on the bus or train, or on any occasion
+    you have some free time. When you create flashcards with Vcard, they travel with you! Continuously reviewing your flash cards 
+    will ensure you’ll retain more of the information you’re studying with little effort required. There are also numerous other
+     ways to use our service to your advantage. For example, you can download and share our flashcards with other students in your
+      study group as well, and it works on both PCs and Macs. There’s no limit to how many cards you can create and share!
+      </p>
+</p>
+
+
+
+
+
+
+       </section>
+       <br><br><br><br>
+       <h2 style="text-align:center;color: aliceblue;">Our Team</h2>
+<div class="row" >
+  <div class="column">
+    <div class="card">
+      <img src="team1.png" alt="Jane" style="width:100%;height: 50%">
+      <div class="containera">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="team2.png" alt="Mike" style="width:100%;height: 50%">
+      <div class="containera">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="team3.png" alt="John" style="width:100%;height: 50%">
+      <div class="containera">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+       </div>
+
+  </body>
+  </html>

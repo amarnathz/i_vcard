@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vcard</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Noto+Sans+SC|Oswald|Pacifico|Ropa+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css" />
+    <script src='js/a076d05399.js'></script>
+    <script type="text/javascript" src="js/home1.js"></script>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+
+      input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+
+      .container {
+        margin: auto;
+        width: 500px;
+        height: initial;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        background-color: #04795df1;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="mySidenav" class="sidenav " style="font-style:Candara ;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+     <nav id="nav">
+      <a href="index.html">&#x025B6; Home</a>
+      <a href="cprofile.html"><i class='fas fa-address-book' style='font-size:24px'></i> Company Profile</a>
+      <a href="about.html">&#9742 Contact us</a>
+      </nav>
+    </div>
+
+    <div id="main">
+      <header>
+      <div class="header">
+      <span id="cli" style="font-size:30px;cursor:pointer;color: azure;" onclick="openNav()"> &#9776;</span>
+      <span class="logo" style="font-family: 'Oswald', sans-serif;font-weight: bold;font-size: 25px;color: azure;margin-left: 40px;">Vcard</span>
+
+      <div class="header-right">
+        <a class="active" href="#signup">SignUp</a>
+        <a href="#signin">SignIn</a>
+       
+
+      </div> 
+    </div>
+     </header>
+
+
+    <section id="content1">
+        <div class="container">
+          <h3 style="text-align: center;color: rgb(255, 255, 255);">Contact us</h3>
+          <form  action="mailto:amarmadavan25@gmail.com" method="post" enctype="text/plain">
+            <label for="fname" style="color: rgb(255, 255, 255);">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name.." />
+            <label for="email" style="color: rgb(255, 255, 255);">Email</label>
+            <input type="email" id="email" name="firstname" placeholder="Email" />
+    
+            <label for="subject" style="color: rgb(255, 255, 255);" >Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height:200px"
+            ></textarea>
+            <input onclick="mysubmit()" type="submit" value="Send"/>
+           
+          </form>
+          
+        </div>
+        <address>
+            <br> 
+          Visit us at:<br>
+          www.Vcard.com<br>
+          19/34, j nagar<br>
+          vadavalli<br>
+          COIMBATORE
+          </address>
+
+
+
+
+
+       </section>
+       </div>
+
+       <script>
+        function mysubmit() {
+          alert("Thanks for contact us");
+        }
+        </script>
+  </body>
+  </html>
